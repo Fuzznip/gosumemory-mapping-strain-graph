@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Cabin Regular";
+  src: url("fonts/Cabin-Regular.ttf");
+}
+
+body,html{
+  font-family: "Cabin Regular";
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#main{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  height: 1080px;
+  width: 1920px;
+  position: relative;
+}
+#strainGraph{
+  position: absolute;
+  top: 300px;
+  left: 245px;
+  height: 90px;
+  width: 1920px;
+}
+#canvas{
+  top: 0;
+  position: absolute;
+  filter: blur(2px);
+}
+#canvasSecond{
+  filter: blur(2px);
+}
+#pp{
+  font-family: "Airbnb Cereal App Medium", Torus, Inter, "Helvetica Neue", Tahoma, Arial, "Hiragino Kaku Gothic ProN", Meiryo, "Microsoft YaHei", "Apple SD Gothic Neo", sans-serif;
+  display: flex;
+  position: relative;
+  color: #219ebcff;
+  top: -115px;
+  font-size: 45px;
+  -webkit-text-stroke: 1.5px #023047ff;
+  transition: ease-in-out 400ms;
+  z-index: -4;
+}
+#starRating{
+  font-family: "Airbnb Cereal App Medium", Torus, Inter, "Helvetica Neue", Tahoma, Arial, "Hiragino Kaku Gothic ProN", Meiryo, "Microsoft YaHei", "Apple SD Gothic Neo", sans-serif;
+  display: flex;
+  position: relative;
+  color: #219ebcff;
+  top: -115px;
+  font-size: 45px;
+  -webkit-text-stroke: 1.5px #023047ff;
+  transition: ease-in-out 400ms;
+  z-index: -4;
+}
+#progress{
+  top: 0;
+  position: absolute;
+  width: 1110px;
+  overflow: hidden;
+  transition: ease 600ms;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="deps/Chart.min.js"></script>
+  <script src="deps/reconnecting-websocket.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="strainGraph">
+      <div>
+        <canvas id="canvas" width="1110" height="90"></canvas>
+      </div>
+      <div id='progress'>
+        <div>
+          <canvas id="canvasSecond" width="1110" height="90"></canvas>
+        </div>
+      </div>
+      <div id="starRating">
+        <div id="starRatingCurrent">0.0</div>
+      </div>
+      <div id="pp">
+        <div id="ppCurrent">0</div>
+      </div>
+    </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
+
